@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../Fonts/icomoon.ttf?eku2ta') format('truetype'),
+    url('../Fonts/icomoon.woff?eku2ta') format('woff'),
+    url('../Fonts/icomoon.svg?eku2ta#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-search:before {
+  content: "\e986";
+    
+}
+
+.icon-menu3:before {
+  content: "\e9bf";
+    color: #ffffff;
+}
+.icon-menu4:before {
+  content: "\e9c0";
+    color: #ffffff;
+}
+.icon-cancel-circle:before {
+  content: "\ea0d";
+    font-size: 72px;
+}
+
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-facebook:before {
+  content: "\ea90";
+    color: #ffffff;
+}
+.icon-instagram:before {
+  content: "\ea92";
+    color: #ffffff;
+}
+.icon-twitter:before {
+  content: "\ea96";
+    color: #ffffff;
+}
+.icon-search:hover, .icon-menu3:hover, .icon-menu4:hover, .icon-cancel-circle:hover, .icon-circle-up:hover, .icon-circle-right:hover, .icon-circle-down:hover, .icon-circle-left:hover, .icon-facebook:hover, .icon-instagram:hover, .icon-twitter:hover {
+     color: #FDC013;
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-search:before {
+  content: "\e986";
+  color: #ffffff;
+    
+}
+}
