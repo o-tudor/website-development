@@ -464,10 +464,10 @@ li.bjqs-slide {
 }
 
 #map.half-linkers {
-	background-image: url(/Images/map.jpg);
+	background-image: url(../Images/map.jpg);
 }
 #journal.half-linkers {
-	background-image: url(/Images/journal.jpg);
+	background-image: url(../Images/journal.jpg);
 }
 
 /* Basic jQuery Slider essential styles */
@@ -581,21 +581,21 @@ footer {
   display: inline-block;
   width: 28px;
   height: 28px;
-  background: url(/Images/twitter.png) 0 0 no-repeat;
+  background: url(../Images/twitter.png) 0 0 no-repeat;
 }
 
 .facebook{
   display: inline-block;
   width: 28px;
   height: 28px;
-  background: url(/Images/facebook.png) 0 0 no-repeat;
+  background: url(../Images/facebook.png) 0 0 no-repeat;
 }
 
 .instagram{
   display: inline-block;
   width: 28px;
   height: 28px;
-  background: url(/Images/instagram.png) 0 0 no-repeat;
+  background: url(../Images/instagram.png) 0 0 no-repeat;
 }
 
 
