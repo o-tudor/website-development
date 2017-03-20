@@ -254,7 +254,7 @@
   body {
     padding-top: 70px;
   }
-  #homepage-slider .col-md-12 {
+  #homepage-hero .col-md-12 {
     padding: 0;
   }
   #shop-home-container {
@@ -294,7 +294,7 @@
   .center-mobile {
     text-align: center;
   }
-  li.bjqs-slide {
+  hp-hero-img-bg {
     padding: 20px;
   }
  
