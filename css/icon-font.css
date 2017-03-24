@@ -44,16 +44,9 @@
 
 .icon-circle-up:before {
   content: "\ea41";
+    font-size: 25px;
 }
-.icon-circle-right:before {
-  content: "\ea42";
-}
-.icon-circle-down:before {
-  content: "\ea43";
-}
-.icon-circle-left:before {
-  content: "\ea44";
-}
+
 .icon-facebook:before {
   content: "\ea90";
     color: #ffffff;

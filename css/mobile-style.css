@@ -1,20 +1,4 @@
-/*==================================================
-=  Based on  Bootstrap 3 Media Queries             =
-==================================================*/
-
-.col-sm-5th,
-.col-md-5th,
-.col-lg-5th {
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 20%;
-  float: left;
-}
-
-.phone-only,
-.phone-only-table {
+.phone-only {
   display: none;
 }
 
@@ -99,84 +83,13 @@
   border-color: #ddd;
 }
 
-#mobile-nav span.cart_totals {
-  position: absolute;
-  display: block;
-  bottom: 0;
-  left: 50%;
-  width: 72px;
-  margin-left: -36px;
-  font-size: 14px;
-  line-height: 100%;
-  padding: 10px;
-  margin-bottom: -18px;
-  z-index: 9;
-  color: #999;
-}
-
-.scrollable {
-  overflow-x: auto;
-}
-
-.scrollable > div::-webkit-scrollbar {
-  height: 12px;
-}
-
-.scrollable > div::-webkit-scrollbar-track {
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
-  background: #f0f0f0;
-}
-
-.scrollable > div::-webkit-scrollbar-thumb {
-  border-radius: 6px;
-  background: #ccc;
-}
-
-.scrollable.has-scroll {
-  position: relative;
-  overflow: hidden;
-  /* Clips the shadow created with the pseudo-element in the next rule. Not necessary for the actual scrolling. */
-}
-
-.scrollable.has-scroll:after {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 50px;
-  height: 100%;
-  border-radius: 10px 0 0 10px / 50% 0 0 50%;
-  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.25);
-  content: '';
-}
-
-
-/* This is the element whose content will be scrolled if necessary */
-
-.scrollable.has-scroll > div {
-  overflow-x: auto;
-}
-
-.product.MICRO {
-  margin-left: 37%;
-}
-
 
 /*==========  Mobile First Method  ==========*/
-
-
-/* Custom, iPhone Retina */
-
-@media only screen and (min-width: 320px) {}
-
 
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {
-  .col-xs-5th {
-    width: 100%;
-    float: none;
-  }
-  #shop-home-container .col-md-6 .col-md-6 {
+    .col-md-6 .col-md-6 {
     height: 200px;
   }
 }
@@ -185,28 +98,16 @@
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
-  #prod-of-month {
-    height: 550px;
-  }
-  #shop-home-container .col-md-6 .col-md-6 {
+
+  .col-md-6 .col-md-6 {
     height: 275px;
   }
-  table.cart div.coupon label {
-    display: block;
-  }
-  table.cart #coupon_code {
-    margin-bottom: 10px;
-  }
 }
-
-
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
-  #prod-of-month {
-    height: 530px;
-  }
-  #shop-home-container .col-md-6 .col-md-6 {
+    
+  .col-md-6 .col-md-6 {
     height: 265px;
   }
 }
@@ -215,37 +116,14 @@
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {
-  #prod-of-month {
-    height: 510px;
-  }
-  #shop-home-container .col-md-6 .col-md-6 {
+    
+    .col-md-6 .col-md-6 {
     height: 255px;
   }
 }
 
 
 /*==========  Non-Mobile First Method  ==========*/
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (max-width: 1200px) {
-  li.bjqs-slide {
-    padding: 0;
-  }
-  .product.MICRO {
-    margin-left: 39%;
-  }
-}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (max-width: 992px) {
-  .product.MICRO {
-    margin-left: 27%;
-  }
-}
 
 
 /* Small Devices, Tablets */
@@ -257,13 +135,7 @@
   #homepage-hero .col-md-12 {
     padding: 0;
   }
-  #shop-home-container {
-    padding: 0 0 20px 0;
-  }
   body.home {
-    padding-top: 70px;
-  }
-  body.single-product {
     padding-top: 70px;
   }
   select:focus,
@@ -271,18 +143,11 @@
   input:focus {
     font-size: 16px;
   }
-  .products .product h3 {
-    font-size: 18px;
-    line-height: 22px
-  }
   .hidden-phone {
     display: none;
   }
   .phone-only {
     display: block;
-  }
-  .phone-only-table {
-    display: table;
   }
   #whystudy h2 {
     font-size: 18px;
@@ -297,56 +162,4 @@
   hp-hero-img-bg {
     padding: 20px;
   }
- 
-  .right-mobile {
-    float: right;
-  }
-  }
-  .single-product-section {
-    background: none !important;
-  }
-  .single-product-section.equipment,
-  .single-product-section.gifts {
-    margin-top: 0;
-  }
-  .single-product-section.gifts .row,
-  .single-product-section.equipment .row {
-    border-top: 0;
-    padding-top: 0px;
-  }
-  #journal-slider ul.bjqs-controls {
-    position: absolute;
-    left: 0;
-    bottom: 25px;
-    width: 100%;
-    margin: 0;
-  }
-  .parallax-section {
-    padding: 20px 0;
-  }
-  .parallax-section h2 {
-    font-size: 24px;
-  }
-  .product.MICRO {
-    margin-left: 25%;
-  }
-
-
-.logo{
-  display: inline-block;
-    width: 146.22px;
-  background: url(../images/digital-student-mobile-logo.png) 0 0 no-repeat;
 }
-}
-
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-    
-
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 320px) {}
